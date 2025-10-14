@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Keerthivasan Vijayakumar — Web Profile</title>
+  <meta name="description" content="PhD student at UC San Diego (MESL Lab). Research: algorithm–architecture co‑design for time‑series inference on edge devices; HAR & fall detection; accelerators; NVDLA; RISC‑V vector." />
+  <meta property="og:title" content="Keerthivasan Vijayakumar — Web Profile" />
+  <meta property="og:description" content="PhD @ UCSD MESL. Time‑series ML + Hardware co‑design, accelerators, edge inference." />
+  <meta property="og:type" content="website" />
+  <meta name="theme-color" content="#0ea5e9" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+  <style>
+    :root{--bg:#0b1020;--panel:#111933;--ink:#e7ecf5;--muted:#9fb0d0;--accent:#60a5fa;--chip:#1b2647;--ring:#3b82f6;}
+    *{box-sizing:border-box}
+    html,body{margin:0;padding:0;font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Helvetica,Arial,sans-serif;color:var(--ink);background:linear-gradient(180deg,#0b1020 0%,#0a0f1f 60%,#0a0e1c 100%);}    
+    a{color:var(--accent);text-decoration:none}
+    a:hover{text-decoration:underline}
+    .container{max-width:980px;margin:0 auto;padding:28px}
+    header{display:flex;gap:18px;align-items:center;justify-content:space-between;margin:10px 0 24px}
+    .brand{display:flex;gap:14px;align-items:center}
+    .avatar{width:60px;height:60px;border-radius:14px;background:linear-gradient(135deg,#1e2a4a,#0b5fff);display:grid;place-items:center;color:#fff;font-weight:800}
+    .title h1{margin:0;font-size:28px;letter-spacing:.3px}
+    .title p{margin:4px 0 0;color:var(--muted);font-size:14px}
+    nav{display:flex;gap:14px;flex-wrap:wrap}
+    nav a{background:var(--chip);padding:9px 12px;border-radius:999px;border:1px solid rgba(255,255,255,.06)}
+    section{background:rgba(18,26,50,.55);backdrop-filter:saturate(130%) blur(6px);border:1px solid rgba(255,255,255,.06);border-radius:18px;padding:22px;margin:16px 0}
+    h2{margin:0 0 10px;font-size:20px}
+    .grid{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+    @media (max-width:820px){.grid{grid-template-columns:1fr}}
+    .card{background:rgba(255,255,255,.03);border:1px solid rgba(255,255,255,.06);border-radius:14px;padding:16px}
+    .badge{display:inline-flex;align-items:center;gap:8px;background:var(--chip);border:1px solid rgba(255,255,255,.08);padding:6px 10px;border-radius:999px;color:var(--muted);font-size:12px}
+    .list{padding-left:18px;margin:8px 0}
+    footer{opacity:.7;font-size:12px;margin-top:20px;padding:10px;text-align:center}
+    .inline-list{display:flex;gap:8px;flex-wrap:wrap}
+    .kpi{display:flex;gap:10px;flex-wrap:wrap}
+    .kpi span{background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.09);padding:6px 10px;border-radius:10px;font-size:12px}
+    .pill{display:inline-block;padding:3px 8px;border-radius:999px;background:rgba(96,165,250,.15);border:1px solid rgba(96,165,250,.35);font-size:12px}
+    .mono{font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;}
+  </style>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Keerthivasan Vijayakumar",
+    "affiliation": {"@type": "CollegeOrUniversity", "name": "University of California, San Diego"},
+    "jobTitle": "PhD Student",
+    "url": "https://github.com/vkvasan",
+    "sameAs": ["https://scholar.google.com/", "https://www.linkedin.com/"]
+  }
+  </script>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="brand">
+        <div class="avatar">KV</div>
+        <div class="title">
+          <h1>Keerthivasan Vijayakumar</h1>
+          <p>PhD @ UCSD MESL • Time‑series ML × Hardware • Edge inference, accelerators, RISC‑V</p>
+          <div class="kpi">
+            <span>Algorithm–Architecture Co‑Design</span>
+            <span>HAR & Fall‑Detection</span>
+            <span>NVDLA • RVV</span>
+          </div>
+        </div>
+      </div>
+      <nav>
+        <a href="#about">About</a>
+        <a href="#research">Research</a>
+        <a href="#projects">Projects</a>
+        <a href="#publications">Publications</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <section id="about">
+      <h2>About</h2>
+      <p>
+        I’m a PhD student in the <strong>MESL Lab</strong> at UC San Diego advised by Prof. Rajesh Gupta. My work
+        focuses on <em>algorithm–architecture co‑design</em> for time‑series inference on edge devices—especially
+        Human Activity Recognition and fall‑detection—spanning model design, accelerator RTL, and systems.
+      </p>
+      <div class="inline-list">
+        <span class="badge">Keywords: Time‑series ML, LNN/CNN‑LNN, ConvLSTM, early‑exit, hardware accelerators</span>
+      </div>
+    </section>
+
+    <section id="research">
+      <h2>Research Highlights</h2>
+      <div class="grid">
+        <div class="card">
+          <strong>Semantic ConvLSTM Accelerator</strong>
+          <p>Hidden‑State Stationarity (HSS), Compute‑in‑Reorder (CiR), gate‑level and intra‑cell parallelism on ZCU102/104/111.</p>
+          <p class="pill">FPGA • SystemVerilog • Vivado</p>
+        </div>
+        <div class="card">
+          <strong>Hybrid CNN‑LNN for Fall‑Detection</strong>
+          <p>Label‑aware segmentation, early‑exit thresholds, energy‑efficient inference for edge deployment.</p>
+          <p class="pill">SisFall • MobiFall • UCI‑HAR</p>
+        </div>
+        <div class="card">
+          <strong>Prefetcher‑cum‑Accelerator Concepts</strong>
+          <p>Tightly coupled units acting as both L1 prefetchers and task accelerators via reservation‑station integration.</p>
+          <p class="pill">Microarch • Co‑design</p>
+        </div>
+        <div class="card">
+          <strong>Tooling & Simulation</strong>
+          <p>gem5 + NVDLA, RVV bring‑up, trace‑based simulation flows, and XSIM/VCS compatibility work.</p>
+          <p class="pill">gem5 • NVDLA • RVV</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects">
+      <h2>Selected Projects</h2>
+      <div class="grid">
+        <div class="card">
+          <strong>Matrix_Inversion_HLS</strong>
+          <p>Block‑LU matrix inversion with Vitis HLS (AXI4 interfaces, co‑simulation, export RTL).</p>
+          <p><a href="https://github.com/vkvasan/Matrix_Inversion_HLS" target="_blank" rel="noopener">github.com/vkvasan/Matrix_Inversion_HLS</a></p>
+        </div>
+        <div class="card">
+          <strong>Dynamic Noise Denoising (DND) HLS — contributor</strong>
+          <p>Hardware‑accelerated DND pipeline in Vitis HLS as part of SensorsINI.</p>
+          <p><a href="https://github.com/SensorsINI/dnd_hls" target="_blank" rel="noopener">github.com/SensorsINI/dnd_hls</a></p>
+        </div>
+        <div class="card">
+          <strong>NVDLA Integration & Testbenching</strong>
+          <p>AXI DMA + AXI‑Lite control; adapting verification flows and Makefiles for XSIM.</p>
+        </div>
+        <div class="card">
+          <strong>RVV Bring‑up for gem5</strong>
+          <p>Dockerized RVV toolchains, static test binaries, and vector micro‑benchmarks.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="publications">
+      <h2>Publications & Writing</h2>
+      <ul class="list">
+        <li>DATE 2026 (in preparation): Semantic ConvLSTM accelerator with HSS + CiR.</li>
+        <li>Workshop & poster drafts on hybrid CNN‑LNN early‑exit inference for fall‑detection.</li>
+      </ul>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>Email: <span class="mono">vkvasan [at] ucsd.edu</span> (or DM via <a href="https://github.com/vkvasan" target="_blank" rel="noopener">GitHub</a>)</p>
+      <div class="inline-list">
+        <span class="badge">Open to collaborations in time‑series ML × hardware</span>
+      </div>
+    </section>
+
+    <footer>
+      © <span id="y"></span> Keerthivasan Vijayakumar · UC San Diego · Built with plain HTML/CSS
+    </footer>
+  </div>
+  <script>document.getElementById('y').textContent = new Date().getFullYear();</script>
+</body>
+</html>
