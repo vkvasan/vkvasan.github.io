@@ -57,14 +57,17 @@
     <header>
       <div class="brand">
         <img class="avatar" src="avatar.jpg" alt="Keerthivasan Vijayakumar" />
-        $1<p>PhD @ UCSD MESL • Time‑series ML × Hardware accelerators (HW–SW co‑design) • Quantization and sparsity exploitation • Hardware architectures and RVV processors</p>
+        <div class="title">
+          <h1>Keerthivasan Vijayakumar</h1>
+          <p>PhD @ UCSD MESL • Time‑series ML × Hardware accelerators (HW–SW co‑design) • Quantization and sparsity exploitation • Hardware architectures and RVV processors</p>
+        </div>
+        <p>PhD @ UCSD MESL • Time‑series ML × Hardware accelerators (HW–SW co‑design) • Quantization and sparsity exploitation • Hardware architectures and RVV processors</p>
           
         </div>
       </div>
       <nav>
         <a href="#about">About</a>
         <a href="#research">Research</a>
-        <a href="#projects">Projects</a>
         <a href="#publications">Publications</a>
         <a href="#contact">Contact</a>
       </nav>
@@ -76,35 +79,45 @@
       
     </section>
 
-    $1
+    <section id="research">
+      <h2>Research Highlights</h2>
+      <div class="grid">
+        <div class="card">
+          <strong>Algorithm–Architecture Co‑Design of ConvLSTM Accelerator for Human Activity Recognition</strong>
+          <p>Hidden‑State reuse (HSS), Compute‑in‑Reorder (CiR), and gate‑level parallelism for low‑latency, energy‑efficient HAR on FPGAs.</p>
+          <p class="pill">ConvLSTM • Accelerator RTL • Edge</p>
+          <p><em>Submitted to DATE 2026 (double‑blind)</em></p>
+          <p><strong>Authors:</strong> <strong>Keerthivasan Vijayakumar</strong>, Abarajithan Gnaneswaran, Jiayun Zhang, Xiyuan Zhang, Rajesh K. Gupta, Patrick Pannuto, Ryan Kastner</p>
+        </div>
+        <div class="card">
+          <strong>Hybrid CNN‑LNN for Accurate Fall Detection: A Co‑Design Approach Using Ternary‑Weighted Neural Architecture (−1, 0, 1)</strong>
+          <p>Label‑aware segmentation with early exits and ternary weights for efficient, accurate fall detection on edge devices.</p>
+          <p class="pill">CNN‑LNN • Early‑Exit • Edge</p>
+          <p><em>In progress</em></p>
+          <p><strong>Authors:</strong> <strong>Keerthivasan Vijayakumar</strong>, Raymond Duenas, Patrick Pannuto, Rajesh K. Gupta</p>
+        </div>
         <div class="card">
           <strong>Within‑Camera Multilayer Perceptron: DVS Denoising</strong>
           <p>Event‑camera (DVS) denoising using a within‑camera MLP; CVPR 2023 Workshop.</p>
           <p class="pill">CVPR 2023 Workshop • DVS</p>
           <p><a href="https://openaccess.thecvf.com/content/CVPR2023W/EventVision/papers/Rios-Navarro_Within-Camera_Multilayer_Perceptron_DVS_Denoising_CVPRW_2023_paper.pdf" target="_blank" rel="noopener">Paper</a> · <a href="https://github.com/SensorsINI/dnd_hls" target="_blank" rel="noopener">Code</a></p>
+          <p><strong>Authorship:</strong> 4th author — <strong>Keerthivasan Vijayakumar</strong></p>
         </div>
-      $2
-
-    <section id="projects">
-      <h2>Selected Projects</h2>
-      <div class="grid">
-        <div class="card">
-          <strong>Matrix_Inversion_HLS</strong>
-          <p>Block‑LU matrix inversion with Vitis HLS (AXI4 interfaces, co‑simulation, export RTL).</p>
-          <p><a href="https://github.com/vkvasan/Matrix_Inversion_HLS" target="_blank" rel="noopener">github.com/vkvasan/Matrix_Inversion_HLS</a></p>
-        </div>
-        <div class="card">
-          <strong>Dynamic Noise Denoising (DND) HLS — contributor</strong>
-          <p>Hardware‑accelerated DND pipeline in Vitis HLS as part of SensorsINI.</p>
-          <p><a href="https://github.com/SensorsINI/dnd_hls" target="_blank" rel="noopener">github.com/SensorsINI/dnd_hls</a></p>
-        </div></div>
+      </div>
     </section>
 
-    $1
-        <li><a href="https://openaccess.thecvf.com/content/CVPR2023W/EventVision/papers/Rios-Navarro_Within-Camera_Multilayer_Perceptron_DVS_Denoising_CVPRW_2023_paper.pdf" target="_blank" rel="noopener">Within‑Camera Multilayer Perceptron: DVS Denoising</a> — Authors include <strong>Keerthivasan Vijayakumar</strong>.</li>
-        <li><a href="https://dl.acm.org/doi/10.1145/3625687.3625811" target="_blank" rel="noopener">ACM Digital Library — Publication 1</a> — Authors include <strong>Keerthivasan Vijayakumar</strong>.</li>
-        <li><a href="https://dl.acm.org/doi/10.1145/3625687.3625811" target="_blank" rel="noopener">ACM Digital Library — Publication 2</a> — Authors include <strong>Keerthivasan Vijayakumar</strong>.</li>
-      $2
+    
+
+    <section id="publications">
+      <h2>Publications</h2>
+      <ul class="list">
+        <li><a href="https://openaccess.thecvf.com/content/CVPR2023W/EventVision/papers/Rios-Navarro_Within-Camera_Multilayer_Perceptron_DVS_Denoising_CVPRW_2023_paper.pdf" target="_blank" rel="noopener">Within‑Camera Multilayer Perceptron: DVS Denoising</a> — <em>CVPR 2023 Workshop</em>. <strong>Authorship:</strong> 4th author — <strong>Keerthivasan Vijayakumar</strong>.</li>
+        <li><strong>Algorithm–Architecture Co‑Design of ConvLSTM Accelerator for Human Activity Recognition</strong> — <em>Submitted to DATE 2026 (double‑blind)</em>. Authors: <strong>Keerthivasan Vijayakumar</strong>, Abarajithan Gnaneswaran, Jiayun Zhang, Xiyuan Zhang, Rajesh K. Gupta, Patrick Pannuto, Ryan Kastner.</li>
+        <li><strong>Hybrid CNN‑LNN for Accurate Fall Detection: A Co‑Design Approach Using Ternary‑Weighted Neural Architecture (−1, 0, 1)</strong> — <em>In progress</em>. Authors: <strong>Keerthivasan Vijayakumar</strong>, Raymond Duenas, Patrick Pannuto, Rajesh K. Gupta.</li>
+        <li><a href="https://dl.acm.org/doi/10.1145/3625687.3625811" target="_blank" rel="noopener">Physics‑Informed Data Denoising</a> — Authors include <strong>Keerthivasan Vijayakumar</strong>.</li>
+        <li><strong>A Novel Framework for Distributed and Federated Machine Learning</strong> — <em>link pending</em>. <strong>Authorship:</strong> 2nd author — <strong>Keerthivasan Vijayakumar</strong>.</li>
+      </ul>
+    </section>
     </section>
 
     <section id="contact">
