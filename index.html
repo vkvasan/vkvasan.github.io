@@ -4,7 +4,7 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Keerthivasan Vijayakumar — Web Profile</title>
-  <meta name="description" content="PhD student at UC San Diego (MESL Lab). Research: algorithm–architecture co‑design for time‑series inference on edge devices; HAR & fall detection; accelerators; NVDLA; RISC‑V vector." />
+  <meta name="description" content="PhD student at UC San Diego (MESL Lab). Research: algorithm–architecture co‑design for time‑series inference on edge devices; HAR & fall detection; accelerators; NVDLA;  vector." />
   <meta property="og:title" content="Keerthivasan Vijayakumar — Web Profile" />
   <meta property="og:description" content="PhD @ UCSD MESL. Time‑series ML + Hardware co‑design, accelerators, edge inference." />
   <meta property="og:type" content="website" />
@@ -21,7 +21,7 @@
     .container{max-width:980px;margin:0 auto;padding:28px}
     header{display:flex;gap:18px;align-items:center;justify-content:space-between;margin:10px 0 24px}
     .brand{display:flex;gap:14px;align-items:center}
-    .avatar{width:80px;height:80px;border-radius:16px;object-fit:cover;display:block;border:2px solid rgba(0,0,0,.06);box-shadow:0 2px 10px rgba(0,0,0,.06);}
+    .avatar{width:160px;height:160px;border-radius:50%;object-fit:cover;display:block;border:2px solid rgba(0,0,0,.06);box-shadow:0 2px 10px rgba(0,0,0,.06);} 
     .title h1{margin:0;font-size:28px;letter-spacing:.3px}
     .title p{margin:4px 0 0;color:var(--muted);font-size:14px}
     nav{display:flex;gap:14px;flex-wrap:wrap}
@@ -59,7 +59,7 @@
         <img class="avatar" src="avatar.jpg" alt="Keerthivasan Vijayakumar" />
         <div class="title">
           <h1>Keerthivasan Vijayakumar</h1>
-          <p>PhD @ UCSD MESL • Time‑series ML × Hardware • Edge inference, accelerators, RISC‑V</p>
+          <p>PhD @ UCSD MESL • Time‑series ML × Hardware • Edge inference, accelerators, </p>
           
         </div>
       </div>
@@ -74,17 +74,19 @@
 
     <section id="about">
       <h2>About</h2>
-      <p>
-        I’m a PhD student in the <strong>MESL Lab</strong> at UC San Diego advised by Prof. Rajesh Gupta. My work
-        focuses on <em>algorithm–architecture co‑design</em> for time‑series inference on edge devices—especially
-        Human Activity Recognition and fall‑detection—spanning model design, accelerator RTL, and systems.
-      </p>
+      <p>I’m a second-year PhD student in the <strong>MESL Lab</strong> at UC San Diego, advised by Prof. Rajesh Gupta and Prof. Patrick Pannuto. My work focuses on <em>algorithm–architecture co-design</em> for time series inference, spanning classification and forecasting. I develop energy efficient systems for time series classification while maintaining state of the art accuracy, particularly for applications such as human activity recognition and fall detection on FPGAs and other edge platforms. My current research aims to improve forecasting via co-design to enable faster, more scalable analysis of time series data. My expertise includes RTL design and modeling, FPGA prototyping of hardware accelerators, and low power techniques for ASIC flows.</p>
       
     </section>
 
     <section id="research">
       <h2>Research Highlights</h2>
       <div class="grid">
+        <div class="card">
+          <strong>CVPR Workshop — DVS Sensor Denoising (ASIC Flow)</strong>
+          <p>End-to-end pipeline from algorithm to ASIC-ready HLS for event-camera denoising.</p>
+          <p class="pill">CVPR Workshop • DVS • HLS → RTL → ASIC flow</p>
+          <p><em>Paper link pending</em> · <a href="https://github.com/SensorsINI/dnd_hls" target="_blank" rel="noopener">Code</a></p>
+        </div>
         <div class="card">
           <strong>Semantic ConvLSTM Accelerator</strong>
           <p>Hidden‑State Stationarity (HSS), Compute‑in‑Reorder (CiR), gate‑level and intra‑cell parallelism on ZCU102/104/111.</p>
@@ -102,8 +104,8 @@
         </div>
         <div class="card">
           <strong>Tooling & Simulation</strong>
-          <p>gem5 + NVDLA, RVV bring‑up, trace‑based simulation flows, and XSIM/VCS compatibility work.</p>
-          <p class="pill">gem5 • NVDLA • RVV</p>
+          <p>gem5 + NVDLA,  bring‑up, trace‑based simulation flows, and XSIM/VCS compatibility work.</p>
+          <p class="pill">gem5 • NVDLA • </p>
         </div>
       </div>
     </section>
